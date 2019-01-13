@@ -2,7 +2,7 @@
 Connecting Atom to GitHub OSX
 
 
-## Step 1 - Create New Repsoitory
+## Step 1 - GitHub: Create New Repsoitory
 Copy Text from resulting screen. Will look like:
 echo "# $repositoryname" >> README.md
 git init
