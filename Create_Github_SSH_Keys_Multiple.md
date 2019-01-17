@@ -2,10 +2,10 @@ Summary of:
 https://medium.freecodecamp.org/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca
 
 
-#Multiple SSH Setup
+# Multiple SSH Key GitHub Setup
 
 
-Clean SSH setup:
+## Clean SSH setup:
 
 
 1) Generate default key for personal:
