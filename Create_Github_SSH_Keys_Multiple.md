@@ -51,23 +51,12 @@ ssh-add ~/.ssh/id_rsa
 
 ssh-add ~/.ssh/id_rsa_work_user1
 
-6) Config file:
+6) To Switch between the two keys:
 
-in .ssh create file called 'config'
+            $ ssh-add -D            //removes all ssh entries from the ssh-agent
+            $ ssh-add ~/.ssh/id_rsa    // adds personal
 
-add this:
-
-
-      # Personal account, - the default config
-         Host github.com
-         HostName github.com
-         User git
-         IdentityFile ~/.ssh/id_rsa
-      # Work account-1
-         Host github.com-work_user1    
-         HostName github.com
-         User git
-         IdentityFile ~/.ssh/id_rsa_work_user1
-   
-   
-7) Use Hostname in .git config file to use right key (will need to adjust if using default github repo setup code)
+            $ ssh-add -D
+            $ ssh-add ~/.ssh/id_rsa_work_user1 // adds work
+            
+     
