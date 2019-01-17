@@ -56,15 +56,18 @@ ssh-add ~/.ssh/id_rsa_work_user1
 in .ssh create file called 'config'
 
 add this:
-# Personal account, - the default config
-Host github.com
-   HostName github.com
-   User git
-   IdentityFile ~/.ssh/id_rsa
-# Work account-1
-Host github.com-work_user1    
-   HostName github.com
-   User git
-   IdentityFile ~/.ssh/id_rsa_work_user1
+
+
+      # Personal account, - the default config
+         Host github.com
+         HostName github.com
+         User git
+         IdentityFile ~/.ssh/id_rsa
+      # Work account-1
+         Host github.com-work_user1    
+         HostName github.com
+         User git
+         IdentityFile ~/.ssh/id_rsa_work_user1
+   
    
 7) Use Hostname in .git config file to use right key (will need to adjust if using default github repo setup code)
