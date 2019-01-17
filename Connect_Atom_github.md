@@ -19,3 +19,6 @@ Paste the text from Step 1 and hit enter
 Open new project directory
 Create a GIT Repo (Ctrl+Shift_9)
 Push to Github (Bottom menu)
+
+# note
+You may need to adjust the github.com address depending on the key being used
