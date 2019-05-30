@@ -11,10 +11,10 @@
 5) Select: Github Clone
 
 6) Enter Github Url in 'Clone from'
-	-e.g.: git@github.com:Revmkting/Spearfish.git
+	-e.g.: git@github.com:MyRepo/Spearfish.git
 
 7) Enter Project Folder Path in 'To directory'
-	-e.g.: /Users/frank/Local Sites/spearfish/app/public/wp-content/themes/spearfish
+	-e.g.: /Users/name/Local Sites/spearfish/app/public/wp-content/themes/spearfish
 
 8) Hit Clone
 
