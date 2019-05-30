@@ -1,4 +1,4 @@
-# Atom-Github-OSX
+# Atom-Github-OSX - via Terminal
 Connecting Atom to GitHub OSX
 
 
